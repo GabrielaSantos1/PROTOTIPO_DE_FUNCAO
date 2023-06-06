@@ -1,13 +1,11 @@
-# Titulo ou Arte do Projeto
+# Protótipo de Função C#
 ## Versão: 1.0 
-## Status do Projeto: ✔️ Concluído ⚠️ Espera ❌ Cancelado
+## Status do Projeto: ✔️ Concluído
 
 ## Tópicos
 🔹 Descrição do projeto 
 
 🔹 Funcionalidades
-
-🔹 Distribuição
 
 🔹 Pré-requisitos
 
@@ -15,78 +13,39 @@
 
 🔹 Testes realizados
 
-🔹 Banco de Dados
-
 🔹 Linguagens, dependências e libs utilizadas
-
-🔹 Novas Recursos
 
 🔹 Resolvendo problemas
 
-🔹 Recursos inseridos 
-
-🔹 Desenvolvedores/Contribuintes
-
-🔹 Informações Extras
-
-
-...
-
-Insira os tópicos do README em links para facilitar a navegação do leitor
-
 ## Descrição do projeto
-Descrição breve do projeto compondo um paragrafo ou dois.
+O programa recebe dois valores e faz 4 funções com esses dois números: Soma, Subtração, Multiplicação e Divisão. Depois fala as funções e resultados para o usuário.
 
 ## Funcionalidades ⚙️
-✔️ Funcionalidade 1
 
-✔️ Funcionalidade 2
+✔️ Soma
 
-✔️ Funcionalidade 3
+✔️ Subtração
 
-✔️ Funcionalidade 4
+✔️ Multiplicação
 
-## Distribuição
-Link para teste da versão disponibilizada.
+✔️ Divisão
 
 ## Pré-requisitos ⚠️    
-Versão do Android; 
-SDK; 
-Aparelho utilizado para testes.
-- Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação, para rodar o projeto.
+Mesmos requisitos de instalação do software usado: [Visual Studio 2022](https://learn.microsoft.com/pt-br/visualstudio/releases/2022/system-requirements);
+
+Ou usando um compilador online o requisito será uma rede wifi ou móvel.
 
 ## Como rodar a aplicação 
-Explicação de como se deve utilizar o projeto.
+Após abrir o código em seu programa (ou colar o mesmo no compilador), o inicie e digite um número positivo que gostaria de ser usado para o cálculo e dê ENTER. Repita o processo agora com outro (ou o mesmo) número positivo que queira usar.
 
 ## Testes realizados
-Utilização de imagens e descrição do qeu foi testado.
-
-## Banco de Dados 🗂️
-Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv, xml e etc).
+Foi testada a opção de deixar os floats sem o "static", porém não deu certo.
 
 ## Linguagens, dependencias e libs utilizadas 📚
-![Android Studio](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
-XML
-...
-Liste as tecnologias utilizadas no projeto que não forem reconhecidas pelo Github
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 ## Resolvendo Problemas 
-Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos.
-
-## Recursos de inseridos 🧰
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação, insira fotos da tela do app.
-
-📝 Tarefa 1
-
-📝 Tarefa 2
-
-📝 Tarefa 3
-
-## Desenvolvedores/Contribuintes:
-Liste o time responsável pelo desenvolvimento do projeto
+Ocorreu o problema com as variáveis tipo float, onde foi necessário adicionar um "static" para normalizá-las.
 
 ## Licença
 The MIT License (MIT)
-
-## Copyright ©️ Ano - Titulo do Projeto
